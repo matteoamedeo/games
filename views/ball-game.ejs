@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/ball-game.css">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @font-face {
+            font-family: 'BDCartoonShoutRegular';
+            src: url('/common/BD_Cartoon_Shout-webfont.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        .back {
+            color: white;
+            font-size: 12px;
+            font-family: 'BDCartoonShoutRegular';
+        }
+    </style>
+
+
+    <title>Bounce Ball Game using JavaScript with Source Code - @code.scientist x @codingtorque</title>
+</head>
+
+<body>
+    <section id="instructions">
+        <div class="back"><a href="/">Back to Menu</a> </div>
+        <div class="instruction">restart</div>
+    </section>
+
+    <canvas id="mycanvas" width="650" height="450">
+        I'm sorry your browser version does not support canvas
+    </canvas>
+
+    <div class="controller">
+        <i class="fa-solid fa-arrow-left left controllers"></i>
+        <i class="fa-solid fa-arrow-right right controllers"></i>
+    </div>
+
+    <script src="/javascript/ball-game.js"></script>
+
+</body>
+
+</html>
